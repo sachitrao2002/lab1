@@ -1,0 +1,20 @@
+
+package com.exam2;
+
+import com.exam1.sameclass;
+
+
+public class diff1 extends  sameclass
+{
+    void method()
+    {
+   
+System.out.println( pro_c ) ; 
+System.out.println( pub_d ) ;
+    }
+    public static void main(String [] args)
+    {
+        diff1 z = new diff1();
+        z.method();
+    }
+}
